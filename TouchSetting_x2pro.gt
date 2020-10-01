@@ -1,0 +1,32 @@
+[Setting]
+;UpdateCFG=0
+SendCFG=0		;Send CFG to touch IC when loading driver	
+SleepDisable=0
+PhysicalXsize=2571	;Physical size£¬the unit is 0.1mm
+PhysicalYsize=1450
+
+[Support]
+ESD=1		;Driver supports ESD recovery processing
+;SensorID=0	;According to the different SensorID send different configuration
+GtpTool=0	;GuitarTestPlateform tool support
+X2X=0
+Y2Y=0
+X2Y=0
+Log=0
+
+[Feature]
+Pen=1		;stylus/pen support
+NumberOfKey=1	;The total number of keys supported,equal to 0 does not support key
+Key1=0xe3	;0xe3 is home key,Must be a hexadecimal number
+Key2=
+Key3=
+Key4=
+
+[CFG]
+DefaultCFG=
+senserid_0=
+senserid_1=
+senserid_2=
+senserid_3=
+senserid_4=
+senserid_5=
